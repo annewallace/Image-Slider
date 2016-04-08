@@ -20,8 +20,7 @@
     "package.json"
   ],
   "dependencies": {
-    "jquery": "^2.2.3",
-    "imgslider": "https://github.com/justinvetter/Image-Slider.git"
+    "jquery": "^2.2.3"
   },
   "devDependencies": {
     "bourbon": "^4.2.6"
