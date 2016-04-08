@@ -21,7 +21,9 @@
   ],
   "dependencies": {
     "jquery": "^2.2.3",
-    "bourbon": "^4.2.6",
     "imgslider": "https://github.com/justinvetter/Image-Slider.git"
+  },
+  "devDependencies": {
+    "bourbon": "^4.2.6"
   }
 }
