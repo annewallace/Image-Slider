@@ -20,9 +20,9 @@
     "package.json"
   ],
   "dependencies": {
-    "jquery": "^2.2.3"
   },
   "devDependencies": {
-    "bourbon": "^4.2.6"
+    "bourbon": "^4.2.6",
+    "jquery": "^2.2.3"
   }
 }
