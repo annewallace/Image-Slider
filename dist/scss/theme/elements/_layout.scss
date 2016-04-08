@@ -52,6 +52,10 @@ Main components
 	right: 0;
 	color: $color-3;
 	padding: 1em;
+  background-color: $color-2;
+  border-top-left-radius: 20px;
+  border-top: 2px solid $color-3;
+  border-left: 2px solid $color-3;
 	@include font-smoothing;
 	opacity: 0;
 	@include transform(translateY(20px));
@@ -94,6 +98,10 @@ Main components
 	.cd-image-label {
 		right: auto;
 		left: 0;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 0;
+    border-right: 2px solid $color-3;
+    border-left: 0;
 	}
 
 	.is-visible & {
@@ -131,6 +139,7 @@ Main components
 	cursor: move;
 	box-shadow: 0 0 0 6px rgba(#000, .2), 0 0 10px rgba(#000, .6), inset 0 1px 0 rgba(#fff, .3);
 	opacity: 0;
+  border: 2px solid $color-3;
 	@include transform(translate3d(0,0,0) scale(0));
 
 	&.draggable {
