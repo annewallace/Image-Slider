@@ -51,11 +51,9 @@ Main components
 	bottom: 0;
 	right: 0;
 	color: $color-3;
-	padding: 1em;
+	padding: .5em;
   background-color: $color-2;
-  border-top-left-radius: 20px;
-  border-top: 2px solid $color-3;
-  border-left: 2px solid $color-3;
+  border-top-left-radius: 10px;
 	@include font-smoothing;
 	opacity: 0;
 	@include transform(translateY(20px));
@@ -98,9 +96,8 @@ Main components
 	.cd-image-label {
 		right: auto;
 		left: 0;
-    border-top-right-radius: 20px;
+    border-top-right-radius: 10px;
     border-top-left-radius: 0;
-    border-right: 2px solid $color-3;
     border-left: 0;
 	}
 
