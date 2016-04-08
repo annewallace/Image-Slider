@@ -1,0 +1,19 @@
+{
+  "name": "imgslider",
+  "version": "0.0.0",
+  "description": "Image comparison slider",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinvetter/Image-Slider.git"
+  },
+  "author": "Justin Vetter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justinvetter/Image-Slider/issues"
+  },
+  "homepage": "https://github.com/justinvetter/Image-Slider#readme"
+}

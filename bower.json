@@ -1,0 +1,18 @@
+{
+  "name": "imgslider",
+  "description": "Image comparison slider",
+  "main": "main.js",
+  "authors": [
+    "Justin Vetter"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/justinvetter/Image-Slider",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
