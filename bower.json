@@ -14,10 +14,14 @@
     "bower_components",
     "test",
     "tests",
-    "src"
+    "src",
+    "bower.json",
+    "gruntfile.js",
+    "package.json"
   ],
   "dependencies": {
     "jquery": "^2.2.3",
-    "bourbon": "^4.2.6"
+    "bourbon": "^4.2.6",
+    "imgslider": "https://github.com/justinvetter/Image-Slider.git"
   }
 }
