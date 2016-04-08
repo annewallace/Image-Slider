@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/imageslider.css">
+  <title>Image Slider</title>
+</head>
+
+<body>
+  <figure class="cd-image-container">
+    <img src="img/Beijing_before.jpg" alt="Original Image">
+    <span class="cd-image-label" data-type="original">Origional</span>
+
+    <div class="cd-resize-img">
+      <img src="img/Beijing_after.jpg" alt="Modified Image">
+      <span class="cd-image-label" data-type="modified">Modified</span>
+    </div>
+
+    <span class="cd-handle"></span>
+  </figure>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery/jquery.min.js"><\/script>')
+  </script>
+  <script src="js/imageslider.js"></script>
+</body>
+
+</html>
